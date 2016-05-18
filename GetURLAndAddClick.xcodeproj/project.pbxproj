@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6761FE8B1CEC071B000FB04B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FE8A1CEC071B000FB04B /* main.m */; };
+		6761FE8E1CEC071B000FB04B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FE8D1CEC071B000FB04B /* AppDelegate.m */; };
+		6761FE911CEC071B000FB04B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FE901CEC071B000FB04B /* ViewController.m */; };
+		6761FE941CEC071B000FB04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6761FE921CEC071B000FB04B /* Main.storyboard */; };
+		6761FE961CEC071B000FB04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6761FE951CEC071B000FB04B /* Assets.xcassets */; };
+		6761FE991CEC071B000FB04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6761FE971CEC071B000FB04B /* LaunchScreen.storyboard */; };
+		6761FEA41CEC071B000FB04B /* GetURLAndAddClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEA31CEC071B000FB04B /* GetURLAndAddClickTests.m */; };
+		6761FEAF1CEC071B000FB04B /* GetURLAndAddClickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEAE1CEC071B000FB04B /* GetURLAndAddClickUITests.m */; };
+		6761FEC31CEC0743000FB04B /* WPAttributedStyleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEBE1CEC0743000FB04B /* WPAttributedStyleAction.m */; };
+		6761FEC41CEC0743000FB04B /* WPHotspotLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEC01CEC0743000FB04B /* WPHotspotLabel.m */; };
+		6761FEC51CEC0743000FB04B /* WPTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEC21CEC0743000FB04B /* WPTappableLabel.m */; };
+		6761FECB1CEC1129000FB04B /* NSMutableString+TagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FEC81CEC1129000FB04B /* NSMutableString+TagReplace.m */; };
+		6761FECC1CEC1129000FB04B /* NSString+WPAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FECA1CEC1129000FB04B /* NSString+WPAttributedMarkup.m */; };
+		6761FECF1CEC404A000FB04B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761FECE1CEC404A000FB04B /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6761FEA01CEC071B000FB04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6761FE7E1CEC071B000FB04B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6761FE851CEC071B000FB04B;
+			remoteInfo = GetURLAndAddClick;
+		};
+		6761FEAB1CEC071B000FB04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6761FE7E1CEC071B000FB04B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6761FE851CEC071B000FB04B;
+			remoteInfo = GetURLAndAddClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6761FE861CEC071B000FB04B /* GetURLAndAddClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetURLAndAddClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6761FE8A1CEC071B000FB04B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6761FE8C1CEC071B000FB04B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6761FE8D1CEC071B000FB04B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6761FE8F1CEC071B000FB04B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6761FE901CEC071B000FB04B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6761FE931CEC071B000FB04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6761FE951CEC071B000FB04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6761FE981CEC071B000FB04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6761FE9A1CEC071B000FB04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6761FE9F1CEC071B000FB04B /* GetURLAndAddClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetURLAndAddClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6761FEA31CEC071B000FB04B /* GetURLAndAddClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetURLAndAddClickTests.m; sourceTree = "<group>"; };
+		6761FEA51CEC071B000FB04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6761FEAA1CEC071B000FB04B /* GetURLAndAddClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetURLAndAddClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6761FEAE1CEC071B000FB04B /* GetURLAndAddClickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetURLAndAddClickUITests.m; sourceTree = "<group>"; };
+		6761FEB01CEC071B000FB04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6761FEBD1CEC0743000FB04B /* WPAttributedStyleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAttributedStyleAction.h; sourceTree = "<group>"; };
+		6761FEBE1CEC0743000FB04B /* WPAttributedStyleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAttributedStyleAction.m; sourceTree = "<group>"; };
+		6761FEBF1CEC0743000FB04B /* WPHotspotLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHotspotLabel.h; sourceTree = "<group>"; };
+		6761FEC01CEC0743000FB04B /* WPHotspotLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHotspotLabel.m; sourceTree = "<group>"; };
+		6761FEC11CEC0743000FB04B /* WPTappableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTappableLabel.h; sourceTree = "<group>"; };
+		6761FEC21CEC0743000FB04B /* WPTappableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTappableLabel.m; sourceTree = "<group>"; };
+		6761FEC71CEC1129000FB04B /* NSMutableString+TagReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+TagReplace.h"; sourceTree = "<group>"; };
+		6761FEC81CEC1129000FB04B /* NSMutableString+TagReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+TagReplace.m"; sourceTree = "<group>"; };
+		6761FEC91CEC1129000FB04B /* NSString+WPAttributedMarkup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WPAttributedMarkup.h"; sourceTree = "<group>"; };
+		6761FECA1CEC1129000FB04B /* NSString+WPAttributedMarkup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPAttributedMarkup.m"; sourceTree = "<group>"; };
+		6761FECD1CEC404A000FB04B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6761FECE1CEC404A000FB04B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6761FE831CEC071B000FB04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FE9C1CEC071B000FB04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FEA71CEC071B000FB04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6761FE7D1CEC071B000FB04B = {
+			isa = PBXGroup;
+			children = (
+				6761FE881CEC071B000FB04B /* GetURLAndAddClick */,
+				6761FEA21CEC071B000FB04B /* GetURLAndAddClickTests */,
+				6761FEAD1CEC071B000FB04B /* GetURLAndAddClickUITests */,
+				6761FE871CEC071B000FB04B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6761FE871CEC071B000FB04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6761FE861CEC071B000FB04B /* GetURLAndAddClick.app */,
+				6761FE9F1CEC071B000FB04B /* GetURLAndAddClickTests.xctest */,
+				6761FEAA1CEC071B000FB04B /* GetURLAndAddClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6761FE881CEC071B000FB04B /* GetURLAndAddClick */ = {
+			isa = PBXGroup;
+			children = (
+				6761FEC61CEC1129000FB04B /* WPAttributedMarkup */,
+				6761FEBC1CEC0743000FB04B /* Extras */,
+				6761FE8C1CEC071B000FB04B /* AppDelegate.h */,
+				6761FE8D1CEC071B000FB04B /* AppDelegate.m */,
+				6761FE8F1CEC071B000FB04B /* ViewController.h */,
+				6761FE901CEC071B000FB04B /* ViewController.m */,
+				6761FECD1CEC404A000FB04B /* WebViewController.h */,
+				6761FECE1CEC404A000FB04B /* WebViewController.m */,
+				6761FE921CEC071B000FB04B /* Main.storyboard */,
+				6761FE951CEC071B000FB04B /* Assets.xcassets */,
+				6761FE971CEC071B000FB04B /* LaunchScreen.storyboard */,
+				6761FE9A1CEC071B000FB04B /* Info.plist */,
+				6761FE891CEC071B000FB04B /* Supporting Files */,
+			);
+			path = GetURLAndAddClick;
+			sourceTree = "<group>";
+		};
+		6761FE891CEC071B000FB04B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6761FE8A1CEC071B000FB04B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6761FEA21CEC071B000FB04B /* GetURLAndAddClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				6761FEA31CEC071B000FB04B /* GetURLAndAddClickTests.m */,
+				6761FEA51CEC071B000FB04B /* Info.plist */,
+			);
+			path = GetURLAndAddClickTests;
+			sourceTree = "<group>";
+		};
+		6761FEAD1CEC071B000FB04B /* GetURLAndAddClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6761FEAE1CEC071B000FB04B /* GetURLAndAddClickUITests.m */,
+				6761FEB01CEC071B000FB04B /* Info.plist */,
+			);
+			path = GetURLAndAddClickUITests;
+			sourceTree = "<group>";
+		};
+		6761FEBC1CEC0743000FB04B /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				6761FEBD1CEC0743000FB04B /* WPAttributedStyleAction.h */,
+				6761FEBE1CEC0743000FB04B /* WPAttributedStyleAction.m */,
+				6761FEBF1CEC0743000FB04B /* WPHotspotLabel.h */,
+				6761FEC01CEC0743000FB04B /* WPHotspotLabel.m */,
+				6761FEC11CEC0743000FB04B /* WPTappableLabel.h */,
+				6761FEC21CEC0743000FB04B /* WPTappableLabel.m */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		6761FEC61CEC1129000FB04B /* WPAttributedMarkup */ = {
+			isa = PBXGroup;
+			children = (
+				6761FEC71CEC1129000FB04B /* NSMutableString+TagReplace.h */,
+				6761FEC81CEC1129000FB04B /* NSMutableString+TagReplace.m */,
+				6761FEC91CEC1129000FB04B /* NSString+WPAttributedMarkup.h */,
+				6761FECA1CEC1129000FB04B /* NSString+WPAttributedMarkup.m */,
+			);
+			path = WPAttributedMarkup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6761FE851CEC071B000FB04B /* GetURLAndAddClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6761FEB31CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClick" */;
+			buildPhases = (
+				6761FE821CEC071B000FB04B /* Sources */,
+				6761FE831CEC071B000FB04B /* Frameworks */,
+				6761FE841CEC071B000FB04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetURLAndAddClick;
+			productName = GetURLAndAddClick;
+			productReference = 6761FE861CEC071B000FB04B /* GetURLAndAddClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6761FE9E1CEC071B000FB04B /* GetURLAndAddClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6761FEB61CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClickTests" */;
+			buildPhases = (
+				6761FE9B1CEC071B000FB04B /* Sources */,
+				6761FE9C1CEC071B000FB04B /* Frameworks */,
+				6761FE9D1CEC071B000FB04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6761FEA11CEC071B000FB04B /* PBXTargetDependency */,
+			);
+			name = GetURLAndAddClickTests;
+			productName = GetURLAndAddClickTests;
+			productReference = 6761FE9F1CEC071B000FB04B /* GetURLAndAddClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6761FEA91CEC071B000FB04B /* GetURLAndAddClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6761FEB91CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClickUITests" */;
+			buildPhases = (
+				6761FEA61CEC071B000FB04B /* Sources */,
+				6761FEA71CEC071B000FB04B /* Frameworks */,
+				6761FEA81CEC071B000FB04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6761FEAC1CEC071B000FB04B /* PBXTargetDependency */,
+			);
+			name = GetURLAndAddClickUITests;
+			productName = GetURLAndAddClickUITests;
+			productReference = 6761FEAA1CEC071B000FB04B /* GetURLAndAddClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6761FE7E1CEC071B000FB04B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YQ;
+				TargetAttributes = {
+					6761FE851CEC071B000FB04B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6761FE9E1CEC071B000FB04B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6761FE851CEC071B000FB04B;
+					};
+					6761FEA91CEC071B000FB04B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6761FE851CEC071B000FB04B;
+					};
+				};
+			};
+			buildConfigurationList = 6761FE811CEC071B000FB04B /* Build configuration list for PBXProject "GetURLAndAddClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6761FE7D1CEC071B000FB04B;
+			productRefGroup = 6761FE871CEC071B000FB04B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6761FE851CEC071B000FB04B /* GetURLAndAddClick */,
+				6761FE9E1CEC071B000FB04B /* GetURLAndAddClickTests */,
+				6761FEA91CEC071B000FB04B /* GetURLAndAddClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6761FE841CEC071B000FB04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6761FE991CEC071B000FB04B /* LaunchScreen.storyboard in Resources */,
+				6761FE961CEC071B000FB04B /* Assets.xcassets in Resources */,
+				6761FE941CEC071B000FB04B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FE9D1CEC071B000FB04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FEA81CEC071B000FB04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6761FE821CEC071B000FB04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6761FECB1CEC1129000FB04B /* NSMutableString+TagReplace.m in Sources */,
+				6761FE911CEC071B000FB04B /* ViewController.m in Sources */,
+				6761FECC1CEC1129000FB04B /* NSString+WPAttributedMarkup.m in Sources */,
+				6761FE8E1CEC071B000FB04B /* AppDelegate.m in Sources */,
+				6761FECF1CEC404A000FB04B /* WebViewController.m in Sources */,
+				6761FEC41CEC0743000FB04B /* WPHotspotLabel.m in Sources */,
+				6761FEC31CEC0743000FB04B /* WPAttributedStyleAction.m in Sources */,
+				6761FEC51CEC0743000FB04B /* WPTappableLabel.m in Sources */,
+				6761FE8B1CEC071B000FB04B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FE9B1CEC071B000FB04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6761FEA41CEC071B000FB04B /* GetURLAndAddClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6761FEA61CEC071B000FB04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6761FEAF1CEC071B000FB04B /* GetURLAndAddClickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6761FEA11CEC071B000FB04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6761FE851CEC071B000FB04B /* GetURLAndAddClick */;
+			targetProxy = 6761FEA01CEC071B000FB04B /* PBXContainerItemProxy */;
+		};
+		6761FEAC1CEC071B000FB04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6761FE851CEC071B000FB04B /* GetURLAndAddClick */;
+			targetProxy = 6761FEAB1CEC071B000FB04B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6761FE921CEC071B000FB04B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6761FE931CEC071B000FB04B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6761FE971CEC071B000FB04B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6761FE981CEC071B000FB04B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6761FEB11CEC071B000FB04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6761FEB21CEC071B000FB04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6761FEB41CEC071B000FB04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetURLAndAddClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6761FEB51CEC071B000FB04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetURLAndAddClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6761FEB71CEC071B000FB04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetURLAndAddClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetURLAndAddClick.app/GetURLAndAddClick";
+			};
+			name = Debug;
+		};
+		6761FEB81CEC071B000FB04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetURLAndAddClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetURLAndAddClick.app/GetURLAndAddClick";
+			};
+			name = Release;
+		};
+		6761FEBA1CEC071B000FB04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetURLAndAddClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetURLAndAddClick;
+			};
+			name = Debug;
+		};
+		6761FEBB1CEC071B000FB04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetURLAndAddClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DCJ.GetURLAndAddClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetURLAndAddClick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6761FE811CEC071B000FB04B /* Build configuration list for PBXProject "GetURLAndAddClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6761FEB11CEC071B000FB04B /* Debug */,
+				6761FEB21CEC071B000FB04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6761FEB31CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6761FEB41CEC071B000FB04B /* Debug */,
+				6761FEB51CEC071B000FB04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6761FEB61CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6761FEB71CEC071B000FB04B /* Debug */,
+				6761FEB81CEC071B000FB04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6761FEB91CEC071B000FB04B /* Build configuration list for PBXNativeTarget "GetURLAndAddClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6761FEBA1CEC071B000FB04B /* Debug */,
+				6761FEBB1CEC071B000FB04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6761FE7E1CEC071B000FB04B /* Project object */;
+}
